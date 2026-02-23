@@ -1,0 +1,8 @@
+{
+  "name": "dama-quest-api",
+  "version": "1.0.0",
+  "description": "Backend functions for Dama Quest",
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0"
+  }
+}
