@@ -52,7 +52,7 @@ console.log("المراقب اكتشف تغييراً!"); // سطر للتأكد
     }, 3000);
 
     return () => clearTimeout(timeoutId);
-  }, [gameState.gold, gameState.lives, gameState.xp, gameState.unlockedChapters ,gameState); // مراقبة كل الخصائص المهمة
+  }, [gameState.gold, gameState.lives, gameState.xp, gameState.unlockedChapters ,gameState]); // مراقبة كل الخصائص المهمة
 
   // 4. منطق اللعبة (اللعب، الشراء، التنقل)
   const buyLife = () => {
