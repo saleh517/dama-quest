@@ -45,7 +45,7 @@ function App() {
   useEffect(() => {
     // حفظ محلي
     localStorage.setItem('dama_save', JSON.stringify(gameState));
-
+console.log("المراقب اكتشف تغييراً!"); // سطر للتأكد
     // حفظ سحابي (تأخير 3 ثوانٍ لتجنب كثرة الطلبات)
     const timeoutId = setTimeout(() => {
       saveToCloud(gameState);
